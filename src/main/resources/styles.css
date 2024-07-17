@@ -1,0 +1,74 @@
+.root {
+    -fx-background-color: #f0f8ff;
+}
+
+.label {
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.text-field, .password-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #b0c4de;
+    -fx-border-radius: 5;
+    -fx-padding: 8;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #4682b4;
+}
+
+.button {
+    -fx-background-color: #4682b4;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 5;
+    -fx-padding: 10 20 10 20;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #5a9bd5;
+}
+
+.button:pressed {
+    -fx-background-color: #3a6b9d;
+}
+
+.tab-pane {
+    -fx-background-color: #f0f8ff;
+}
+
+.tab {
+    -fx-background-color: #4682b4;
+    -fx-text-base-color: #ffffff;
+}
+
+.tab:selected {
+    -fx-background-color: #87cefa;
+}
+
+.check-box {
+    -fx-padding: 5;
+    -fx-font-size: 14px;
+}
+
+.check-box:focused {
+    -fx-border-color: #4682b4;
+}
+
+.form-container {
+    -fx-padding: 20;
+    -fx-border-radius: 10;
+    -fx-background-color: #ffffff;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);
+}
+
+.error-message {
+    -fx-text-fill: red;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}

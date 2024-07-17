@@ -1,0 +1,11 @@
+org\example\ExpenseManager.class
+org\example\RegistrationPage.class
+org\example\LoginPage.class
+org\example\Database.class
+org\example\Expense.class
+org\example\ExpenseInputForm.class
+org\example\BudgetInputForm.class
+org\example\MonthlyExpensesView.class
+org\example\UserManager.class
+org\example\ReportView.class
+org\example\PersonalFinanceManagerApp.class
